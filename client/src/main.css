@@ -1,0 +1,358 @@
+.container{
+	vertical-align: middle;
+	padding-bottom: 10%;
+}
+canvas {
+	width: 100% !important;
+    max-width: 400px;
+    height: auto !important;
+}
+
+/*Index Page*/
+.inputContainer {
+	height: 275px;
+	width: 600px;
+	background-color: rgba( 0, 0, 0, 0.3);
+	margin: auto;
+	border-radius: 5px;
+}
+
+.image {
+	width: 75%;
+	height: 75%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+.imgContainer {
+	text-align: center;
+}
+.btn-success {
+	width: 350px;
+	background-color: #80c41c !important;
+	background-image: none !important;
+}
+
+.divButton {
+	text-align: center;
+}
+
+
+
+/*Sign Up Page*/
+.signInInput {
+	width:350px;
+	margin: auto;
+	padding-top: 20px;
+
+}
+
+hr{
+	width: 75%;
+}
+
+.signUpInput {
+	width:350px;
+	margin: auto;
+	
+}
+
+.signupInputContainer {
+	height: 320px;
+	width: 600px;
+	padding-top: 20px;
+	background-color: rgba( 0, 0, 0, 0.3);
+	margin: auto;
+	border-radius: 5px;
+}
+
+
+
+/* this is ross' entry from friday, july 15 */
+h1, th{
+	color: white;
+}
+
+#total{
+	clear:all;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 64px;
+}
+
+#goal{
+	background: rgba( 0, 0, 0, 0.3);
+	margin-bottom: 1%;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	padding: 1%;
+}
+
+#goal input{
+	width: 25%;
+	margin-top: 1%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 1%;
+}
+
+.financeBackground{
+	background: rgba( 0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	border-radius: 5px;
+}
+
+.financeBackground h1{
+	margin-top: 0px
+}
+
+.financeBackground th{
+	color: rgba( 0, 0, 0, 0);
+}
+
+#income{
+	margin-top: 1%;
+	width: 50%;
+	padding: 1%;
+	float: left;
+	text-align: center
+}
+
+#expense{
+	margin-top: 1%;
+	width: 50%;
+	float: right;
+	padding: 1%;
+	text-align: center
+}
+
+
+.clearall{
+
+	clear: left;
+}
+
+#headerImage{
+	width:25%;
+}
+
+.header{
+	padding: 20px 10px 5px 10px;
+	font-size: 18px
+}
+
+.header hr{
+	width:100%;
+}
+
+.nav {
+	float: right;
+	margin-left: 2%;
+}
+
+.nav li{
+	float: left;
+	margin-left: 5px;
+}
+.nav a{
+	color: white;
+
+}
+select{
+	margin: auto;
+	text-align: center;
+}
+
+#goalamount{
+	display: inline-block;
+}
+
+#goal-content{
+	display: inline-block;
+	margin:auto;
+}
+
+#calculate{
+	width:250px;
+	background-color: green;
+	margin: auto;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+#centerbutton{
+	text-align: center;
+}
+
+#DropBox{
+	padding-left: 1%;
+	display: inline;
+	vertical-align: top;
+}
+
+#x007{
+	padding:1%;
+	text-align: center;
+	color:white;
+	font-size: 28px;
+}
+
+.financetotal{
+	color:white;
+}
+.inputbutton{
+    background-color: #40a629;
+    /*  80c41c = light green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+.financeBackground input{
+	text-decoration: none;
+	margin-top: 1%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 1%;
+}
+
+.financeBackground input.form-control{
+	text-align: center;
+}
+
+body {
+    background: url("../images/background.png");
+    background-size: 100%;
+}
+
+.financetotal{
+	margin-top: 10px;
+	font-size: 30px;
+	color: white;
+}
+
+/* this is the end of Ross entry */
+
+/* Projections Page */
+.charts {
+	display: flex;
+	color: white;
+}
+
+#myBarGraph {
+	margin: auto;
+	background-color: none;
+}
+
+#myPieChart {
+	margin: auto;
+	background-color: none;
+	opacity: .8;
+}
+
+.months {
+	width: 100px;
+	height: 100px;
+	border: 5px solid white;
+	background-color: yellow;
+	font-size: 30px;
+	margin: auto;
+}
+
+.goal {
+	width: 100px;
+	height: 100px;
+	border: 5px solid white;
+	background-color: red;
+	font-size: 30px;
+	margin: auto;
+}
+
+.titlebar {
+	display: inline-block;
+	width: 100%;
+
+}
+
+.expenseDiv {
+	background-color: none;
+	display: inline;
+	height: 40px;
+	width:400px;
+	margin-left: 21%;
+	text-align: center;
+	font-size: 20px;
+	color: #2D2E30;
+	font-family: futura; 
+	/*border: 1px black solid;*/
+	
+	
+}
+
+.expenseButton {
+	width: 80px;
+	height: 35px;
+	color: #2D2E30;
+	font-family: futura;
+	background-color: #CFCEC4;
+	margin-left:90px;
+	z-index: 1;
+	
+}
+
+#goalAlert {
+	
+	color: #2D2E30;
+	font-family: futura;
+	text-align: center;
+	font-size: 22px;
+	padding-bottom: 40px;
+}
+
+@media (max-width: 1000px) {
+	.charts{
+		display: block;
+	}
+
+	.expenseDiv {
+		display: block;
+		margin: 0 auto;
+
+	}
+
+	.expenseButton {
+	position: absolute;
+	display: inline;
+	/*left: 5%;*/
+	bottom: 34%;
+	z-index: 1;
+}
+
+@media (max-width: 660px) {
+	.image {
+		width: 90%;
+		height: 90%;
+	}
+	.inputContainer {
+		width: 90%;
+	}
+
+	.btn-success {
+		width: 50%;
+	}
+
+	.signInInput {
+		width: 50%;
+	}
+}
